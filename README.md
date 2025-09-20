@@ -1,31 +1,18 @@
-# API REST Productos - Spring Boot
-
-API para gestionar productos con Spring Boot.
+# API REST Productos
 
 ## Ejecutar
-
-mvn pacakge
-
-mvn spring-boot:run
-
+```bash
+mvn  spring-boot:run
+```
 
 ## Endpoints
+- POST /productos - Crear producto
 
-### POST /productos
-Crear producto:
+![img_5.png](img_5.png)
+- GET /productos - Obtener todos
 
-{
+![img_4.png](img_4.png)
 
-    "nombre": "Laptop",
+- GET /productos/{id} - Obtener por ID
 
-    "precio": 1500.0
-}
-
-![img_1.png](img_1.png)
-### GET /productos
-Obtener todos los productos.
-![img_2.png](img_2.png)
-### GET /productos/{id}
-Obtener producto por ID.
-![img_3.png](img_3.png)
-
+![img.png](img.png)
