@@ -2,7 +2,8 @@
 
 ## Ejecutar
 mvn package
-mvn  spring-boot:run
+
+mvn spring-boot:run
 
 
 ## Endpoints
