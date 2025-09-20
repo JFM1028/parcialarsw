@@ -1,9 +1,9 @@
 # API REST Productos
 
 ## Ejecutar
-```bash
+mvn package
 mvn  spring-boot:run
-```
+
 
 ## Endpoints
 - POST /productos - Crear producto
